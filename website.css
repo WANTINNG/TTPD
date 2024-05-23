@@ -1,0 +1,153 @@
+body {
+  background-color: rgb(211, 211, 211);
+  font-family: italianno, Arial;
+  color: #65635b;
+  font-size: 90px;
+  font-weight: 900px;
+}
+
+.titles {
+  width: 1660px;
+  text-align:center;
+  line-height: 30px;
+  padding-top: 50px;
+  margin-bottom: 50px;
+  
+}
+
+.cover1 {
+ padding-top: 30px;
+  width: 1590px;
+  border-radius: 5px;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 80px;
+  row-gap: 10px;
+  padding-top: 100px;
+}
+
+@media (max-width:750px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media(min-width:750px) and (max-width:999px) {
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width:1000px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.part1{
+  width: 670px;
+  margin-left:100px;
+  margin-top: 100px;
+}
+
+
+.song1,
+.song2,
+.song3,
+.song4 {
+  color: #65635b;
+  font-size: 95px;
+  text-decoration: underline;
+  text-decoration-color: rgb(250, 237, 219);
+  font-weight: 900px;
+  cursor: pointer;
+}
+
+.song1:hover {
+  opacity: 0.5;
+  background-color: #474747;
+  color: white;
+  transition: color 0.5s ease;
+}
+
+.cover2 {
+  width: 750px;
+  margin-left:0px;
+  border-radius: 5px;
+}
+
+.part4 {
+  width: 650px;
+  margin-top: 150px;
+}
+
+.cover3 {
+  width: 840px;
+  border-radius: 10px;
+}
+
+.song2:hover {
+  opacity: 0.5;
+  background-color: #474747;
+  color: white;
+}
+
+.part5 {
+  width: 680px;
+  margin-left:100px;
+  margin-top: 200px;
+}
+
+.cover4 {
+  width: 950px;
+  border-radius: 5px;
+}
+
+.song3:hover {
+  opacity: 0.5;
+  background-color: #474747;
+  color: white;
+}
+
+.part7 {
+  width: 100px;
+}
+
+.cover5 {
+  width: 890px;
+  border-radius: 10px;
+}
+
+
+.part8 {
+  margin-top: 250px;
+  width: 550px;
+  margin-left: 760px;
+
+}
+
+.song4:hover {
+  opacity: 0.5;
+  background-color: #474747;
+  color: white;
+}
+
+
+.end {
+  width: 500px;
+  margin-left: 530px;
+  border-radius: 300px;
+  margin-top: 200px;
+}
+
+.lastline {
+  width: 1590px;
+  font-size:75px;
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 100px;
+}
